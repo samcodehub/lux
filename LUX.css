@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    background: rgb(255,240,6);
+background: linear-gradient(43deg, rgba(255,240,6,1) 0%, rgba(255,158,31,1) 35%, rgba(93,89,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:600;
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
+  }
+
+
+
+ .card a{
+    background: rgb(243,211,115);
+  background: linear-gradient(0deg, rgba(243,211,115,1) 0%, rgba(248,180,48,1) 0%, rgba(255,213,76,1) 100%);
+  border-color: #d3ae06; /* Black */
+  color: #242424; /* White */
+ } 
+  
+  
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+    
+  footer {
+    background: linear-gradient(43deg, rgba(255, 240, 6, 1) 0%, rgba(255, 158, 31, 1) 35%, rgb(202, 192, 3) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #a9a9a9 !important;
+    text-shadow: 0 0 40px rgba(254, 252, 252, 0.5);
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      max-width: 90vw;
+      width: 90vw;
+      max-height: none;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .card-body {
+      padding: 10px;
+    }
+
+    .card-title {
+      font-size: 20px;
+    }
+
+    .card-text {
+      font-size: 14px;
+    }
+  }
